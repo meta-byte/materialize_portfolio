@@ -1,0 +1,31 @@
+.overlay{
+    margin: auto;
+    margin-top: 200px;
+    text-align:center;
+    width: 50%;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+
+  }
+
+  /* h1{
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+    text-transform: uppercase;
+  } */
+
+  .jobcard{
+      margin: 10px;
+      background-color: lightgray;
+  }
+  .location{
+    font-size: 30px;
+  }
+  .jobTitle{
+      font-size: 20px;
+  }
+  .bar{
+      font-size: 30px;
+  }
+  .cardimg{
+      margin-top: 25px;
+  }

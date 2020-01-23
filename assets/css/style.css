@@ -26,7 +26,7 @@
 }
 .overlay{
     margin-top: 200px;
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.9);
   }
 
 .aboutBox{
@@ -54,6 +54,10 @@
   }
 .cardimg{
   }
+
+.card-title{
+text-shadow: 2px 2px 8px rgba(0,0,0,0.9);
+}
 #buttoncol{
     margin-top: 30px;
 }

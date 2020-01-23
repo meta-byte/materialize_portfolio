@@ -1,31 +1,51 @@
-.overlay{
-    margin: auto;
-    margin-top: 200px;
-    text-align:center;
-    width: 50%;
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
-
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
   }
-
-  /* h1{
+.menu{
+    background-color: #ff6105;
+}
+.overlay{
+    margin-top: 200px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+  }
+/* h1{
     color: white;
     text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
     text-transform: uppercase;
   } */
-
-  .jobcard{
-      margin: 10px;
-      background-color: lightgray;
+.aboutBox{
+    background-color: teal;
+    color: white;
+}
+#about-me{
+    margin: 20px;
+}
+.jobcard{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      color: white;
+      background-color: teal;
+      padding: 20px !important;
   }
-  .location{
+.location{
     font-size: 30px;
   }
-  .jobTitle{
+.jobTitle{
       font-size: 20px;
   }
-  .bar{
+.bar{
       font-size: 30px;
   }
-  .cardimg{
-      margin-top: 25px;
+.cardimg{
   }
+#buttoncol{
+    margin-top: 30px;
+}
+#download{
+    background-color: #ff6105;
+}

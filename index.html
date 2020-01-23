@@ -10,35 +10,53 @@
     <!-- Reset CSS, Materialize Icons, Materialize CSS, Style CSS -->
     <link rel="stylesheet" href="assets/css/reset.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+    <nav class="menu">
+        <!-- <div class="nav menu"> -->
+        <a href="#" data-target="mobile" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+        <!-- <ul class="right "> -->
+        <!-- <li><a href="#" class="fa fa-linkedin"></a></li>
+                <li><a href="#" class="fa fa-github"></a></li> -->
+        <!-- <li><a href="collapsible.html">Javascript</a></li>
+                <li><a href="mobile.html">Mobile</a></li> -->
+        </ul>
+        </div>
+        <ul class="sidenav" id="mobile">
+            <li><a href="sass.html">About Me</a></li>
+            <li><a href="badges.html">Experience</a></li>
+            <li><a href="collapsible.html">Projects</a></li>
+            <!-- <li><a href="mobile.html">Education</a></li> -->
+        </ul>
+    </nav>
+
+
 
     <div class="row">
         <div class="col s12">
             <div class="parallax-container">
                 <div class="parallax">
-                    <img src="assets/images/portfoliophotosmall.jpg" alt="" class="responsive-img">
+                    <img src="assets/images/portfolio photo.jpg" alt="" class="responsive-img">
                 </div>
-                <div class="overlay center">
-                    <h1 class="center white-text">About Me</h1>
-                    <!-- <p class="flow-text white-text">
-                        I'm Garrett. I'm a software development student at Western Governors University and I'm
-                        studying full-stack web development part time at the University of Utah. I've worked in the
-                        field of IT and support for the past 5 years and I love figuring out how things work.</p> -->
+                <div class="overlay">
+                    <h1 class="center white-text">HI</h1>
                 </div>
             </div>
         </div>
     </div>
     <div class="row">
-        <div class="col s6 offset-s3">
-            <p class="flow-text">
-                I'm Garrett. I'm a software development student at Western Governors University and I'm
-                studying full-stack web development part time at the University of Utah. I've worked in the
-                field of IT and support for the past 5 years and I love figuring out how things work.</p>
+        <div class="container">
+            <div class="col s12 z-depth-1 aboutBox">
+                <p class="flow-text" id="about-me">
+                    I'm Garrett. I'm a software development student at Western Governors University and I'm
+                    studying full-stack web development part time at the University of Utah. I've worked in the
+                    field of IT and support for the past 5 years and I love figuring out how things work.</p>
 
+            </div>
         </div>
 
     </div>
@@ -49,7 +67,7 @@
                     <img src="assets/images/lauren-pandolfi-zD5ry8Up83M-unsplash_4032x3024.jpg" alt=""
                         class="responsive-img">
                 </div>
-                <div class="overlay center">
+                <div class="overlay">
                     <h1 class="center white-text">Experience</h1>
                 </div>
             </div>
@@ -102,6 +120,61 @@
 
                 </div>
             </div>
+            <div class="col s12 z-depth-1 jobcard">
+                <div class="row">
+                    <div class="col s2">
+                        <img class="responsive-img circle cardimg" src="assets/images/dellemc.png">
+                    </div>
+                    <div class="col s10">
+                        <span class="location">Title</span><span class="bar"> | </span><span class="jobTitle">Job
+                            Title</span>
+                        <h6>Dates</h6>
+                        <br>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate fugit neque atque harum
+                            porro
+                            suscipit saepe, eius distinctio odit perferendis laboriosam reiciendis. Commodi doloribus,
+                            cum quas
+                            cupiditate corporis quibusdam expedita.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col s12 z-depth-1 jobcard">
+                <div class="row">
+                    <div class="col s2">
+                        <img class="responsive-img circle cardimg" src="assets/images/dellemc.png">
+                    </div>
+                    <div class="col s10">
+                        <span class="location">Title</span><span class="bar"> | </span><span class="jobTitle">Job
+                            Title</span>
+                        <h6>Dates</h6>
+                        <br>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate fugit neque atque harum
+                            porro
+                            suscipit saepe, eius distinctio odit perferendis laboriosam reiciendis. Commodi doloribus,
+                            cum quas
+                            cupiditate corporis quibusdam expedita.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 center" id="buttoncol">
+                    <a class="waves-effect waves-light btn center" id="download"><i
+                            class="material-icons right">file_download</i>Download My
+                        Resume</a>
+
+                </div>
+            </div>
+
+
+
 
         </div>
     </div>
@@ -111,12 +184,127 @@
                 <div class="parallax">
                     <img src="assets/images/greg-rakozy-vw3Ahg4x1tY-unsplash.jpg" alt="" class="responsive-img">
                 </div>
-                <div class="overlay center">
+                <div class="overlay">
                     <h1 class="center white-text">Projects</h1>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card medium">
+                    <div class="card-image">
+                        <img src="assets/images/cmdr-shane-OHnvp41aDzE-unsplash.jpg" class="responsive-img"
+                            alt="unsplashed image">
+                        <span class="card-title">Password Generator</span>
+                    </div>
+                    <div class="card-content">
+                        <p>My first real Javascript project, this password generator is designed to allow a user to
+                            create a secure password of a custom length using lowercase letters, uppercase letters,
+                            numbers, and symbols.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://meta-byte.github.io/password_generator/" target="_blank">See it Live</a>
+                        <a href="https://github.com/meta-byte/password_generator" target="_blank">See the Repo</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card medium">
+                    <div class="card-image">
+                        <img src="assets/images/james-zwadlo-5RRseu8n_5s-unsplash.jpg" class="responsive-img"
+                            alt="unsplashed image">
+                        <span class="card-title">Weather Dashboard</span>
+                    </div>
+                    <div class="card-content">
+                        <p>An app that presents accurate weather information via the
+                            Open Weather API. Previous searches are remembered and the last
+                            searched city is presented on page load. The goal was to practice the imnplementation of a
+                            third party API update the page dynamically.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://meta-byte.github.io/weather_dashboard/" target="_blank">See it Live</a>
+                        <a href="https://github.com/meta-byte/weather_dashboard" target="_blank">See the Repo</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card medium">
+                    <div class="card-image">
+                        <img src="assets/images/sharon-mccutcheon-eMP4sYPJ9x0-unsplash.jpg" class="responsive-img"
+                            alt="unsplashed image">
+                        <span class="card-title">Coding Quiz App</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I created this quiz app to test my ability to dynamically generate and alter HTML elements
+                            with Javascript and JQuery. It tests users on their knowledge of a chosen topic, in this
+                            case web development. The questions are stored in an array on a seperate Javascript file.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://meta-byte.github.io/coding_quiz/" target="_blank">See it Live</a>
+                        <a href="https://github.com/meta-byte/coding_quiz" target="_blank">See the Repo</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card medium">
+                    <div class="card-image">
+                        <img src="assets/images/art-lasovsky-ClJ6ivP5Sa0-unsplash.jpg" class="responsive-img"
+                            alt="unsplashed image">
+                        <span class="card-title">Ski Resort Weather App</span>
+                    </div>
+                    <div class="card-content">
+                        <p>An application that utilizes the Weather Unlocked API to search snow depth and weather
+                            conditions at a specific ski resort. It then displays that info in a dashboard and includes
+                            a google map with a pin at the resort's location.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://meta-byte.github.io/Ski_Resort_Weather_Report/" target="_blank">See it Live</a>
+                        <a href="https://github.com/meta-byte/Ski_Resort_Weather_Report" target="_blank">See the
+                            Repo</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <footer class="page-footer menu">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer
+                        content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2014 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
     <!-- <div class="parallax-container">
         <div class="parallax">
             <img src="assets/images/portfoliophotosmall.jpg" alt="" class="responsive-img">

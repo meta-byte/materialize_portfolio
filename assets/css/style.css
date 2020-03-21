@@ -32,7 +32,8 @@
 .aboutBox{
     background-color: teal;
     color: white;
-    margin: 20px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important; 
 }
 #about-me{
     margin: 20px;
